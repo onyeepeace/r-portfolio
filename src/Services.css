@@ -1,0 +1,55 @@
+.services {
+    background-color: #1d809f;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.services h3 {
+    font-size: 1rem;
+    color: #ecb807;
+    margin: 0;
+    padding: 0;
+}
+
+.services h2 {
+    color: #fff;
+    font-size: 48px;
+    margin: 0 0 48px;
+}
+
+.services > .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row span {
+    background-color: #fff;
+    color: #1d809f;
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 36px;
+    line-height: 120px;
+}
+
+ion-icon {
+    contain: none;
+}
+
+.row h4 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 24px;
+    color: #fff;
+}
+
+.row p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.row p ion-icon {
+    color: #ff0000;
+}
